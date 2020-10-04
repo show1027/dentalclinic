@@ -40,13 +40,7 @@
     width: 50%;
   }
   .sidemenu {
-    margin: 0;
-  }
-  .sidemenu__title01 {
-    font-size: 2vw;
-  }
-  .sidemenu__list01 a {
-    font-size: 2vw;
+    margin-right: 0;
   }
   main {
     margin: 0 24px;

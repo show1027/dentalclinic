@@ -41,7 +41,6 @@ body {
 }
 
 .header__top--description {
-  font-size: 1vw;
   margin-bottom: 12px;
 }
 
@@ -50,7 +49,6 @@ body {
 }
 
 .header .time {
-  font-size: 1vw;
   border: 1px solid #D6D6D6;
   padding: 5px;
 }
@@ -99,7 +97,6 @@ body {
   border: solid 1px #6CC6C4;
   background: #9ce3e1;
   text-decoration: none;
-  font-size: 1vw;
   color: #ffffff;
   padding: 17px 0px 18px;
 }
@@ -165,7 +162,6 @@ body {
 }
 
 .main__news--contents .date {
-  font-size: 0.8vw;
   font-weight: bold;
 }
 
@@ -185,7 +181,6 @@ body {
 }
 
 .main__news--contents a {
-  font-size: 0.8vw;
   text-decoration: none;
   color: #595959;
 }
@@ -206,7 +201,6 @@ body {
 .sidemenu__title01 {
   padding: 12px;
   margin: 0;
-  font-size: 1.2vw;
   background: #9ce3e1;
   color: #ffffff;
   text-align: left;
@@ -233,7 +227,6 @@ body {
   padding: 8px 0;
   color: #595959;
   text-decoration: none;
-  font-size: 1vw;
 }
 
 .sidemenu__list01 a:hover {

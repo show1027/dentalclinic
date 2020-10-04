@@ -34,7 +34,7 @@ body {
             right: 0;
         }
         &--description {
-            font-size: 1vw;
+            // font-size: 1vw;
             margin-bottom: 12px;
         }
     }
@@ -42,7 +42,7 @@ body {
         margin: 0;
     }
     .time {
-        font-size: 1vw;
+        // font-size: 1vw;
         border: 1px solid #D6D6D6;
         padding: 5px;
     }
@@ -83,7 +83,7 @@ body {
             border: solid 1px #6CC6C4;
             background: rgb(156,227,225);
             text-decoration: none;
-            font-size: 1vw;
+            // font-size: 1vw;
             color: #ffffff;
             padding: 17px 0px 18px;
 
@@ -141,7 +141,6 @@ body {
                 border-bottom: 1px dotted #D6D6D6;
             }
             .date {
-                font-size: 0.8vw;
                 font-weight: bold;
             }
             span {
@@ -154,7 +153,6 @@ body {
                 padding: 20px 0;
             }
             a {
-                font-size: 0.8vw;
                 text-decoration: none;
                 color: #595959;
             }
@@ -173,7 +171,6 @@ body {
     &__title01 {
         padding: 12px;
         margin: 0;
-        font-size: 1.2vw;
         background: rgb(156,227,225);
         color: #ffffff;
         text-align: left;
@@ -197,7 +194,6 @@ body {
             padding: 8px 0;
             color: #595959;
             text-decoration: none;
-            font-size: 1vw;
     
             &:hover {
                 color: #6CC6C4;
