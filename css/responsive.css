@@ -1,0 +1,64 @@
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+  }
+  .header {
+    margin: 0 auto;
+    height: 400px;
+  }
+  .header__top {
+    position: unset;
+    height: unset;
+  }
+  .header__top--title {
+    position: unset;
+    margin: 0 auto;
+    width: unset;
+  }
+  .header__top--title img {
+    width: unset;
+  }
+  .header__top--right {
+    position: unset;
+  }
+  .header .tel {
+    margin: 0 auto;
+    margin-bottom: 8px;
+    width: 30vw;
+  }
+  .header__nav {
+    position: unset;
+  }
+  .header__nav ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .header__nav li {
+    -webkit-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
+    width: 50%;
+  }
+  .sidemenu {
+    margin: 0;
+  }
+  .sidemenu__title01 {
+    font-size: 2vw;
+  }
+  .sidemenu__list01 a {
+    font-size: 2vw;
+  }
+  main {
+    margin: 0 24px;
+  }
+  .clearFix {
+    display: unset;
+  }
+  .main__news--contents li {
+    display: unset;
+  }
+  footer {
+    margin: 0 24px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

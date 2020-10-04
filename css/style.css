@@ -1,0 +1,284 @@
+@charset "UTF-8";
+body {
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  color: #515151;
+  font-family: Verdana, Arial, Helvetica, meirio, メイリオ, "Hiragino Maru Gothic Pro", "ヒラギノ丸ゴ Pro W4", Osaka, "ＭＳ Ｐゴシック", sans-serif;
+  background: #f6f6f6;
+  border-top: solid 8px #6CC6C4;
+}
+
+.wrapper {
+  width: 64%;
+  margin: 0 auto;
+}
+
+.header {
+  margin: 20px 0;
+}
+
+.header__top {
+  position: relative;
+  padding: 6px 0;
+  height: 100px;
+}
+
+.header__top--title {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 20vw;
+}
+
+.header__top--title img {
+  width: 100%;
+}
+
+.header__top--right {
+  position: absolute;
+  right: 0;
+}
+
+.header__top--description {
+  font-size: 1vw;
+  margin-bottom: 12px;
+}
+
+.header .time, .header .tel {
+  margin: 0;
+}
+
+.header .time {
+  font-size: 1vw;
+  border: 1px solid #D6D6D6;
+  padding: 5px;
+}
+
+.header .hot {
+  color: #B22C00;
+}
+
+.header .tel {
+  font-size: 2vw;
+  margin-bottom: 5px;
+  background: url(image/tel.png) left center no-repeat;
+}
+
+.header__nav {
+  position: relative;
+}
+
+.header__nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  height: 70px;
+}
+
+.header__nav li {
+  padding: 0;
+  list-style: none;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 70px;
+}
+
+.header__nav li:nth-child(1) a {
+  border-radius: 6px 0 0 6px;
+}
+
+.header__nav li:last-child a {
+  border-radius: 0 6px 6px 0;
+}
+
+.header__nav a {
+  display: block;
+  border: solid 1px #6CC6C4;
+  background: #9ce3e1;
+  text-decoration: none;
+  font-size: 1vw;
+  color: #ffffff;
+  padding: 17px 0px 18px;
+}
+
+.header__nav a:hover {
+  background: #6CC6C4;
+}
+
+.header__nav .titleJa {
+  display: block;
+}
+
+.header__nav .titleEn {
+  display: block;
+}
+
+.clearFix {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  margin-bottom: 20px;
+}
+
+.main__image img {
+  width: 100%;
+}
+
+.main__news {
+  background: #ffffff;
+  padding: 20px;
+}
+
+.main__news--title {
+  padding: 0;
+  margin: 0;
+  height: 4vw;
+  line-height: 4vw;
+  font-size: 1.6vw;
+  text-align: left;
+  border-bottom: 2px solid #6CC6C4;
+}
+
+.main__news--contents ul {
+  padding: 0;
+  margin: 0;
+}
+
+.main__news--contents li {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px dotted #D6D6D6;
+}
+
+.main__news--contents .date {
+  font-size: 0.8vw;
+  font-weight: bold;
+}
+
+.main__news--contents span {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 20px 0;
+}
+
+.main__news--contents p {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.main__news--contents a {
+  font-size: 0.8vw;
+  text-decoration: none;
+  color: #595959;
+}
+
+.sidemenu {
+  -webkit-box-flex: 1.2;
+      -ms-flex: 1.2;
+          flex: 1.2;
+  margin-right: 20px;
+}
+
+.sidemenu__frame {
+  margin-bottom: 20px;
+  border: 1px solid #6CC6C4;
+  border-radius: 6px 6px 0 0;
+}
+
+.sidemenu__title01 {
+  padding: 12px;
+  margin: 0;
+  font-size: 1.2vw;
+  background: #9ce3e1;
+  color: #ffffff;
+  text-align: left;
+}
+
+.sidemenu__list01 ul {
+  padding: 0;
+  margin: 0;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+}
+
+.sidemenu__list01 li {
+  margin: 0 12px;
+  padding-left: 24px;
+  list-style: none;
+  text-align: left;
+  border-bottom: 1px solid #6CC6C4;
+  background: url(image/bgListIcon01.png) no-repeat 5px center;
+}
+
+.sidemenu__list01 a {
+  display: block;
+  padding: 8px 0;
+  color: #595959;
+  text-decoration: none;
+  font-size: 1vw;
+}
+
+.sidemenu__list01 a:hover {
+  color: #6CC6C4;
+}
+
+.sidemenu__list01--content a:hover {
+  color: #AEC24C;
+}
+
+.footer__nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4px;
+  border-radius: 6px;
+  background: #6CC6C4;
+}
+
+.footer__nav li {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  list-style: none;
+  background: url(image/footer.png) left center no-repeat;
+}
+
+.footer__nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1vw;
+}
+
+.footer__nav a:hover {
+  text-decoration: underline;
+}
+
+.footer__address {
+  text-align: right;
+  font-size: 1vw;
+}
+
+.footer__copyright {
+  border-top: 2px solid #6CC6C4;
+  padding: 20px 0;
+  font-size: 1vw;
+}
+/*# sourceMappingURL=style.css.map */

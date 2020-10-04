@@ -1,0 +1,251 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(81, 81, 81);
+    font-family: Verdana, Arial, Helvetica, meirio, メイリオ, "Hiragino Maru Gothic Pro", "ヒラギノ丸ゴ Pro W4", Osaka, "ＭＳ Ｐゴシック", sans-serif;
+    background: rgb(246, 246, 246);
+    border-top: solid 8px #6CC6C4;
+}
+
+.wrapper {
+    width: 64%;
+    margin: 0 auto;
+}
+
+.header {
+    margin: 20px 0;
+    &__top {
+        position: relative;
+        padding: 6px 0;
+        height: 100px;
+
+        &--title {
+            position: absolute;
+            top: 40px;
+            left: 0;
+            width: 20vw;
+            img {
+                width: 100%;
+            }
+        }
+        &--right {
+            position: absolute;
+            right: 0;
+        }
+        &--description {
+            font-size: 1vw;
+            margin-bottom: 12px;
+        }
+    }
+    .time, .tel {
+        margin: 0;
+    }
+    .time {
+        font-size: 1vw;
+        border: 1px solid #D6D6D6;
+        padding: 5px;
+    }
+    .hot {
+        color: #B22C00;
+    }
+    .tel {
+        font-size: 2vw;
+        margin-bottom: 5px;
+        background: url(image/tel.png) left center no-repeat;
+    }
+    &__nav {
+        position: relative;
+        ul {
+            display: flex;
+            padding: 0;
+            height: 70px;
+        }
+        li {
+            padding: 0;
+            list-style: none;
+            flex: 1;
+            height: 70px;
+
+            &:nth-child(1) {
+                a {
+                    border-radius: 6px 0 0 6px;
+                }
+            }
+            &:last-child {
+                a {
+                    border-radius: 0 6px 6px 0;
+                }
+            }
+        }
+        a {
+            display: block;
+            border: solid 1px #6CC6C4;
+            background: rgb(156,227,225);
+            text-decoration: none;
+            font-size: 1vw;
+            color: #ffffff;
+            padding: 17px 0px 18px;
+
+            &:hover {
+                background: #6CC6C4;
+            }
+        }
+        .titleJa {
+            display: block;
+
+        }
+        .titleEn {
+            display: block;
+
+        }
+    }
+}
+
+.clearFix {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main {
+    flex: 3;
+    margin-bottom: 20px;
+
+    &__image {
+        img {
+            width: 100%;
+        }
+    }
+    &__news {
+        background: #ffffff;
+        padding: 20px;
+
+        &--title {
+            padding: 0;
+            margin: 0;
+            height: 4vw;
+            line-height: 4vw;
+            font-size: 1.6vw;
+            text-align: left;
+            border-bottom: 2px solid #6CC6C4;
+        }
+        &--contents {
+            ul {
+                padding: 0;
+                margin: 0;
+            }
+            li {
+                list-style: none;
+                display: flex;
+                border-bottom: 1px dotted #D6D6D6;
+            }
+            .date {
+                font-size: 0.8vw;
+                font-weight: bold;
+            }
+            span {
+                flex: 1;
+                padding: 20px 0;
+            }
+            p {
+                flex: 4;
+                margin: 0;
+                padding: 20px 0;
+            }
+            a {
+                font-size: 0.8vw;
+                text-decoration: none;
+                color: #595959;
+            }
+        }
+    }
+}
+
+.sidemenu {
+    flex: 1.2;
+    margin-right: 20px;
+    &__frame {
+        margin-bottom: 20px;
+        border: 1px solid #6CC6C4;
+        border-radius: 6px 6px 0 0;
+    }
+    &__title01 {
+        padding: 12px;
+        margin: 0;
+        font-size: 1.2vw;
+        background: rgb(156,227,225);
+        color: #ffffff;
+        text-align: left;
+    }
+    &__list01 {
+        ul {
+            padding: 0;
+            margin: 0;
+            margin-block-end: 1em;
+        }
+        li {
+            margin: 0 12px;
+            padding-left: 24px;
+            list-style: none;
+            text-align: left;
+            border-bottom: 1px solid #6CC6C4;
+            background: url(image/bgListIcon01.png) no-repeat 5px center;
+        }
+        a  {
+            display: block;
+            padding: 8px 0;
+            color: #595959;
+            text-decoration: none;
+            font-size: 1vw;
+    
+            &:hover {
+                color: #6CC6C4;
+            }
+        }
+        &--content {
+            a {
+                &:hover {
+                    color: #AEC24C;
+                }
+            }
+        }
+    }
+}
+
+.footer {
+
+    &__nav {
+        ul {
+            display: flex;
+            padding: 4px;
+            border-radius: 6px;
+            background: #6CC6C4;
+        }
+        li {
+            flex: 1;
+            list-style: none;
+            background: url(image/footer.png) left center no-repeat;
+        }
+        a {
+            // display: block;
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 1vw;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        
+    }
+    &__address {
+        text-align: right;
+        font-size: 1vw;
+    }
+    &__copyright {
+        border-top: 2px solid #6CC6C4;
+        padding: 20px 0;
+        font-size: 1vw;
+    }
+}
